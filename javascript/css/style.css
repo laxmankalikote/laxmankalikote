@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial';
+    user-select: none;
+}
+
+body{
+    overflow: hidden;
+    display: flex;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.sidebar{
+    position: absolute;
+    height: 100vh;
+    width: 16%;
+    box-shadow: 0px 0px 5px #eee;
+}
+
+.main{
+    position: fixed;
+    height: 100vh;
+    width: 84%;
+    right: 0;
+    overflow-x: scroll;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.title{
+    height: 8vh;
+    width: 100%;
+    background-color: #143F6B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-shadow: 0px 0px 5px #eee;
+}
+
+.title img{
+    height: 50%;
+    width: 50%;
+    filter: brightness(1.2) contrast(1.2);
+}
+
+.navbar{
+    position: sticky;
+    top: 0;
+    font-size: 0.8em;
+    height: 8vh;
+    width: 100%;
+    background-color: #124374;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 0.05em;
+}
+
+.navbar-nav{
+    height: auto;
+    padding-left: 1vw;
+    background: initial;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav > ul{
+    list-style: none;
+    display: flex;
+}
+.navbar-nav > ul li{
+    /* margin: 0.5vw; */
+    padding: 2.8vh 1vh;
+    transition: 100ms;
+}
+
+.navbar-nav > ul li:hover{
+    background-color: rgba(230, 230, 230, 0.445);
+}
+
+.about-logout{
+    height: auto;
+    padding-right: 2vw;
+    background: initial;
+}
+
+.about-logout > ul{
+    list-style: none;
+    display: flex;
+}
+.about-logout > ul li{
+    margin: 0.5vw;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+.navbutton{
+    height: auto;
+    width: auto;
+    float: left;
+    margin: 0.5vw;
+    cursor: pointer;
+}
+.navbutton > span{
+    display: block;
+    height: 1px;
+    width: 2vw;
+    background-color: rgb(255, 255, 255);
+    margin: 0.4vw;
+}
+.logoName{
+    font-size: 12px;
+    width: 100%;
+    display: block;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    padding: 0.5em;
+    line-height: 1.5em;
+    box-shadow: 0px 0px 5px rgb(196, 195, 195);
+}
+.logo{
+    height: 5em;
+    width: 5em;
+    box-shadow: 0px 0px 5px rgb(196, 195, 195);
+    background: url('../images/cooperative_logo.jpg');
+    background-position: center;
+    background-size: contain;
+    border-radius: 100%;
+    margin-left: 35%;   
+}
+.time{
+    font-size: 20px;
+    color: rgb(167, 248, 46)
+}
+
+/* search bar */
+.searchbar{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px rgb(196, 195, 195);
+}
+
+.searchbar i{
+    font-size: 0.8em;
+    color:rgb(148, 143, 143);
+}
+
+.searchbar>span{
+    cursor: pointer;
+    padding: 0 0.5em;
+    border: none;
+}
+
+.searchbar>input{
+    height: 5vh;
+    width: 100%;
+    outline: none;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: none;
+    font-size: 0.7em;
+}
+
+input[type="search"]::placeholder{
+    font-weight: bolder;
+}
+
+.language{
+    display: flex;
+    font-size: 12px;
+    background-color: #143F6B;
+}
+.language div{
+    padding: 0.5em;
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.shortcutkey{
+    height: auto;
+    width: 100%;
+}
+
+.shortcutkey ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.shortcutkey ul li{
+    padding: 0.6em;
+    padding-left: 1em;
+    border: 1px solid rgba(61, 59, 57, 0.1);
+    cursor:pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.shortcutkey ul li > i{
+    cursor: pointer;
+    font-size: 0.6em;
+}
+
+.shortcutkey ul li:hover{
+    background-color:rgb(0, 0 , 0, 0.2);
+}
+
+.main_cover{
+    display:  block;
+    overflow: hidden;
+}
+.content{
+    background-color: #061320;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie_template{
+    height: auto;
+    width: 22%;
+    margin: 10px;
+    border-radius: 5px; 
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.pagination{
+    height:auto;
+    width: 100%;
+    display: flex;
+}
+
+.pagination li{
+    list-style: none;
+}
+
+.pagination li a{
+    text-decoration: none;
+    color: black;
+}

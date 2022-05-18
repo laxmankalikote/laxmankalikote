@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="This is web application used to maintain Financial.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Coop Solutions | Birtamod, Jhapa</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <aside id="sidebar" class="sidebar">
+            <div class="title">
+                <img src="images/logo.png" alt="Finastra Logo">
+            </div>
+            
+            <!-- Logo name other logo -->
+            <div class="logoName">
+                <h4>Coop Solution</h4>
+                <span>Jhapa Damak, Main Branch</span>
+                <br/>
+                <span>
+                    <div class="logo"></div>
+                    <i><b>Monday, May 9, 2022</b></i><br/>
+                    <div id="time" class="time">23:16 PM</div>
+                </span>
+            </div>
+
+            <!-- search bar -->
+            <div class="searchbar">
+                <input type="search" name="search" id="search" list="names" placeholder="Search Member (Alt + Q)" title="Search Members" accesskey="q">
+                <span><i class="fa fa-search"></i></span>
+            </div>
+
+            <datalist id="names">
+
+            </datalist>
+
+            <div class="language">
+                <div>English &nbsp;<img src="images/en.png" style="width:18px;height:13px;padding:0px 0 0 2px;vertical-align:baseline;font-size:20px;margin-bottom:-1px !important;"></div>
+                <div>Nepali &nbsp; <img src="images/ne.svg" style="width:15px;height:14px;padding:0px 0 0 0px;vertical-align:baseline;"></div>
+            </div>
+
+            <!-- shortcutkey -->
+            <div class="shortcutkey">
+                <ul>
+                    <li><i class="fa fa-solid fa-user-plus"></i> &nbsp;Member Registration</li>
+                    <li><i class="fa fa-money"></i> &nbsp;Share Purchase </li>
+                    <li><i class="fa fa-dollar"></i> &nbsp;Counter Deposit</li>
+                    <li><i class="fa fa-credit-card"></i> &nbsp;Counter Withdraw</li>
+                    <li><i class="fa fa-th-list"></i> &nbsp;Deposit Collection Sheet</li>
+                    <li><i class="fa fa-list-alt"></i> &nbsp;Account Statement</li>
+                    <li><i class="fa fa-tachometer"></i> &nbsp;New Loan</li>
+                    <li><i class="fa fa-bar-chart"></i> &nbsp;Loan Receipt</li>
+                    <li><i class="fa fa-edit"></i> &nbsp;New JV</li>
+                    <li><i class="fa fa-lock"></i> &nbsp;Day Close</li>
+                </ul>
+            </div>
+        </aside>
+
+        <!-- main divison -->
+        <main class="main">
+            <div class="navbar">
+                <div class="navbar-nav">
+                    <div id="navbutton" onclick="showMenu()" class="navbutton">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul>
+                        <li onclick="window.location.reload();"><a href="#" title="Home">Home</a></li>
+                        <li><a href="javascript:void(0)" title="Member">Member &#9662;</a></li>
+                        <li><a href="javascript:void(0)" title="Saving">Saving &#9662;</a></li>
+                        <li><a href="javascript:void(0)" title="Loan">Loan &#9662;</a></li>
+                        <li><a href="javascript:void(0)" title="Accounts">Accounts &#9662;</a></li>
+                        <li><a href="javascript:void(0)" title="Settings">Settings &#9662;</a></li>
+                        <li><a href="javascript:void(0)" title="Utilities">Utilities &#9662;</a></li>
+                    </ul>
+                </div>
+                <div class="about-logout">
+                    <ul>
+                        <li><a href="javascript:void(0)">Office</a></li>
+                        <li><a href="javascript:void(0)">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="content" class="main_cover">
+                <div class="content">
+
+                </div>
+                <div class="pagination"></div>
+            </div>
+        </main>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

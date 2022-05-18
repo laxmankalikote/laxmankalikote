@@ -1,0 +1,144 @@
+{
+    "users": [
+      {
+        "id": 0,
+        "name": "Nischal Khanal",
+        "work": "Unilogic",
+        "email": "adam.carter@unilogic.com",
+        "dob": "1978",
+        "address": "83 Warner Street",
+        "city": "Boston",
+        "optedin": true
+      },
+      {
+        "id": 1,
+        "name": "Ram Kalikote",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 2,
+        "name": "Laxman Kalikote",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 3,
+        "name": "Abinash Kalikote",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 4,
+        "name": "Nirmal Khanal",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 5,
+        "name": "Shanta khanal",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 6,
+        "name": "Tulsi Khanal",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 7,
+        "name": "Ayuisha Ghimire",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 8,
+        "name": "Garjaman Kalikote",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 9,
+        "name": "IndraMaya Kalikote",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 10,
+        "name": "Avisek Kalaikote",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 11,
+        "name": "Hari Bahdur Bhattrai",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 12,
+        "name": "Shyam Shrestha",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      },
+      {
+        "id": 13,
+        "name": "Hari Bhattarai",
+        "work": "Connic",
+        "email": "leanne.brier@connic.org",
+        "dob": "1987",
+        "address": "9 Coleman Avenue",
+        "city": "Toronto",
+        "optedin": false
+      }
+    ]
+}
